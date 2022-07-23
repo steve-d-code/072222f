@@ -14,7 +14,7 @@ interface TopBarProps {
 const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
   return (
     <StyledTopBar>
-      <div style={{ backgroundColor: 'black', color: 'white', textAlign: 'center', padding: '3px', marginBottom: '10px' }}>This is a tutorial project on Binance test net. There is no TUFFY token. Do not get scammed.</div>
+      <div style={{ backgroundColor: 'black', color: 'white', textAlign: 'center', padding: '3px', marginBottom: '10px' }}>This is a tutorial project on Binance testnet. There is no TUFFY token. Do not get scammed.</div>
       <Container size="lg">
         <StyledTopBarInner>
           <StyledLogoWrapper>
